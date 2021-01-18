@@ -39,7 +39,7 @@ u gcd(u a,u b)
  */
 double F1(u N)
 {
-    double val;
+    double val=0;
     for(int i=1;i<=N;i++)
         if(gcd(i,N)==1)
             val++;
@@ -55,7 +55,7 @@ double F1(u N)
  */
 double F2(u N)
 {
-    double val;
+    double val=0;
     int a[6]={0,1,1,2,3,5};
     if(N<=5)
         val=a[N];
