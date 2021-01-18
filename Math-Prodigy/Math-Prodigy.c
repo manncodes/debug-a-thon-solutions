@@ -65,7 +65,7 @@ double F2(u N)
         val=a[5];
         while(t<N)
         {
-            val=round(val1.61803398875);
+            val=round(val*1.61803398875);
             t++;
         }
     }
@@ -80,7 +80,7 @@ int main()
         u N;
         double ma;
         scanf("%u",&N);
-        ma=1.4F1(N)+0.875*F2(N);
+        ma=1.4*F1(N)+0.875*F2(N);
         printf("%0.2lf\n",ma);
     }
     // printf("%lf\n",F2(63));
